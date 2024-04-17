@@ -6,14 +6,14 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in);
 
         // criar os imputs para o usuário
-        System.out.println("Digite o número da sua agência: (Ex: 1234)");
-        int agencia = scanner.nextInt();
+        System.out.println("Digite o seu nome:");
+        String nome = scanner.nextLine();
 
         System.out.println("Digite a identificação da sua agência: (Ex: 123-4)");
-        String numAgencia = scanner.next();
+        String numAgencia = scanner.nextLine();
 
-        System.out.println("Digite o seu nome:");
-        String nome = scanner.next();
+        System.out.println("Digite o número da sua agência: (Ex: 1234)");
+        int agencia = scanner.nextInt();
 
         System.out.println("Digite o seu saldo:");
         double saldo = scanner.nextDouble();
